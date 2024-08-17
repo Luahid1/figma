@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+
+}
+.linha-horizontal{
+    width: 100%;
+    border: 1px solid #414040;
+    display: flex;
+    position: absolute;
+    top: 74px;
+}
+header{
+    background-color: rgb(0, 0, 0); 
+    width: 100%;
+    border: none;
+    padding: 0; 
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgba(145, 145, 145, 0.5);
+    position: relative;
+    top: 28px;
+    text-align: center;
+}
+#entre{
+    width: 90px;
+}
+a{
+    text-decoration: none;
+    font-size:x-small;
+    color: #ffffff;
+}
+.imgsushi{
+margin-left: 15%;
+margin-top: 8%;
+}
+h1{
+    color: #ffffff;
+}
+section{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+}
+.textolado{
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+.linha-horizontal2{
+    width: 9%;
+    border: 1px solid #a09e9e;
+    right: 390px;
+    position: absolute;
+}
+.insta{
+    fill: white;
+    width: 17px;}
+.face{
+    fill: white;
+    width: 12px;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: white;
+}
